@@ -44,7 +44,7 @@ st.text("lights are out - apaga una luz")
 
 st.text("showtime - enciende una luz")
 
-st.text("open it up - mueve el motor 180 grados")
+st.text("open it up - mueve el motor 45 grados")
 
 st.text("down we go - mueve el motor 90 grados")
 
