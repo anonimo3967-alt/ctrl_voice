@@ -38,7 +38,7 @@ st.image(image)
 
 
 
-st.write("Toca el boton para hablar. Los comandos a los que reacciona son:")
+st.subheader("Toca el boton para hablar. Los comandos a los que reacciona son:")
 
 st.text("lights are out - apaga una luz")
 
@@ -47,6 +47,8 @@ st.text("showtime - enciende una luz")
 st.text("open it up - mueve el motor 180 grados")
 
 st.text("down we go - mueve el motor 90 grados")
+
+st.text("importante: si estas en safari puede que el reconocimiento de voz no funcione.")
 
 stt_button = Button(label=" Click aqui para grabar ", width=200)
 
