@@ -48,7 +48,7 @@ st.text("open it up - mueve el motor 180 grados")
 
 st.text("down we go - mueve el motor 90 grados")
 
-stt_button = Button(label=" Inicio ", width=200)
+stt_button = Button(label=" Click aqui para grabar ", width=200)
 
 stt_button.js_on_event("button_click", CustomJS(code="""
     var recognition = new webkitSpeechRecognition();
