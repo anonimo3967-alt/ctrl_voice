@@ -38,7 +38,15 @@ st.image(image)
 
 
 
-st.write("Toca el Botón y habla ")
+st.write("Toca el boton para hablar. Los comandos a los que reacciona son:")
+
+st.text("lights are out - apaga una luz")
+
+st.text("showtime - enciende una luz")
+
+st.text("open it up - mueve el motor 180 grados")
+
+st.text("down we go - mueve el motor 90 grados")
 
 stt_button = Button(label=" Inicio ", width=200)
 
