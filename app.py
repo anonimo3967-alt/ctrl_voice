@@ -28,8 +28,8 @@ client1.on_message = on_message
 
 
 
-st.title("INTERFACES MULTIMODALES")
-st.subheader("CONTROL POR VOZ")
+st.title("La voz de una persona puede controlar una maquina si esta así lo desea", text_alignment="center")
+st.text("Ahora el hombre controla la maquina, y la hace la mejor amiga del intelecto, quizas...")
 
 image = Image.open('voice_ctrl.jpg')
 
